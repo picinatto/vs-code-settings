@@ -1,5 +1,8 @@
 # vs-code-settings
 
+### Start the configuration file
+
+```
 {
     "workbench.colorTheme": "Dracula",
 
@@ -40,4 +43,7 @@
     
     "emmet.syntaxProfiles": {"javascript": "jsx"},
     "emmet.includeLanguages": {"javascript": "javascriptreact"}
-}
+} 
+```
+
+### End configuration file
