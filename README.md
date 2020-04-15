@@ -4,10 +4,9 @@
 
 ```
 {
-    "workbench.colorTheme": "Dracula",
-
-    // Aumenta a fonte do terminal
     "terminal.integrated.fontSize": 14,
+
+    "workbench.colorTheme": "Dracula",
 
     // Define o tema dos icones na sidebar
     "workbench.iconTheme": "material-icon-theme",
@@ -42,7 +41,28 @@
     "git.enableSmartCommit": true,
     
     "emmet.syntaxProfiles": {"javascript": "jsx"},
-    "emmet.includeLanguages": {"javascript": "javascriptreact"}
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
+
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
 } 
 ```
 
